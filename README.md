@@ -1,9 +1,38 @@
-# Skillcraft-T-1-Population-Distribution
-This bar chart illustrates the age distribution of India's population in 2022. With a total population of 1.42 billion, the median age is 28.
+# Skillcraft DS internship 
+Task 1: Data Loading and Exploration (bank-full.csv)
+Objective: To load and understand the bank marketing dataset.
 
 Key Findings:
 
-Majority Middle-Aged: The largest segment of the population falls within the 21 to 64 age range, comprising 57.0% of the total.
-Significant Youth Population: The 0 to 20 age group constitutes 36.1% of the population, indicating a large and young workforce.
-Growing Elderly Population: While the smallest segment, the 65+ age group is still a notable 6.9%, suggesting a gradual aging of the population.
-This age distribution has significant implications for various sectors, including education, healthcare, and economic planning.
+Loaded the dataset successfully.
+Initial exploration revealed the dataset's structure and basic information.
+Task 2: Data Preprocessing for Machine Learning Model
+Objective: To prepare the data for machine learning modeling.
+
+Key Findings:
+
+Categorical features were preprocessed using label encoding and one-hot encoding.
+Data was split into training and testing sets for model training and evaluation.
+Task 3: Decision Tree Model Training and Evaluation
+Objective: To build and evaluate a Decision Tree model for predicting bank customer outcomes.
+
+Key Findings:
+
+A Decision Tree classifier was trained on the prepared data.
+Model performance was assessed using classification report, confusion matrix, and ROC AUC score.
+Hyperparameter tuning was employed to optimize the model's performance.
+Task 4: Exploratory Data Analysis (US Traffic Accidents)
+Objective: To explore and analyze the US traffic accidents dataset to identify patterns and trends.
+
+Key Findings:
+
+The dataset was loaded and initial exploration conducted.
+Time-related features were extracted and cleaned.
+Visualizations revealed:
+Seasonal patterns in accident occurrences.
+Weekday variations in accident frequency.
+Time-of-day trends in accidents.
+Distribution of accident severities.
+Relationships between weather conditions, road conditions, and accident severity.
+Further analysis can be conducted to delve deeper into the factors influencing accident occurrences.
+
